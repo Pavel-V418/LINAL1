@@ -11,5 +11,4 @@ add_executable(LINAL1 main.cpp
         methods/lu.cpp
         methods/lu.h
         utilits/utilits.cpp
-        utilits/utilits.h
-        experiments/exp1.cpp)
+        utilits/utilits.h)
