@@ -79,8 +79,6 @@ Vector backward_substitution(const Matrix& U, const Vector& y) {
             sum += U[i][j] * x[j];
         }
 
-        double pivot = U[i][i];
-
         if (std::abs(U[i][i]) < 1e-18)
             throw::std::runtime_error("Zero on diagonal");
 
