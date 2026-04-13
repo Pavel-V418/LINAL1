@@ -1,5 +1,6 @@
 #include "lu.h"
 #include <cmath>
+#include <stdexcept>
 
 // =======================
 // LU РАЗЛОЖЕНИЕ
