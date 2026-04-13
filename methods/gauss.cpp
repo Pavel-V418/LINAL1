@@ -1,4 +1,6 @@
 #include "gauss.h"
+#include <cmath>
+#include <stdexcept>
 
 Vector gauss_without_pivot(Matrix A, Vector b) {
     int n = A.size();
